@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+// Custom CSS variables
+:root {
+  --dedukt-primary: theme('colors.primary.600');
+  --dedukt-secondary: theme('colors.secondary.600');
+  --dedukt-accent: theme('colors.blue.500');
+}
+
+// Custom utility classes
+@layer components {
+  .btn {
+    @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
+  }
+
+  .btn-secondary {
+    @apply btn bg-secondary-100 text-secondary-700 hover:bg-secondary-200 focus:ring-2 focus:ring-offset-2 focus:ring-secondary-500;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+  }
+
+  .notebook-cell {
+    @apply border border-gray-200 rounded-lg mb-4 overflow-hidden transition-all duration-200 hover:shadow-sm;
+  }
+
+  .code-editor {
+    @apply font-mono text-sm;
+  }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dedukt-primary: theme('colors.primary.400');
+    --dedukt-secondary: theme('colors.secondary.400');
+  }
+
+  .card {
+    @apply bg-gray-800 border-gray-700 text-gray-100;
+  }
+
+  .notebook-cell {
+    @apply border-gray-700 bg-gray-800;
+  }
+}
+
+// KaTeX styles for math rendering
+@import 'katex/dist/katex.min.css';
+
+// Monaco Editor theme overrides
+.monaco-editor {
+  @apply rounded-md;
+}
+
+// Custom scrollbars
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full hover:bg-gray-400;
+}
+
+// Animation utilities
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 0.3s ease-out;
+}
