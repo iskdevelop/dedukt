@@ -3,7 +3,7 @@ object BuildConfig {
     const val VERSION = "0.1.0-SNAPSHOT"
 
     const val JVM_TARGET = "17"
-    const val KOTLIN_VERSION = "1.9.20"
+    const val KOTLIN_VERSION = "2.2.0"
 
     object Modules {
         const val CORE = ":core"

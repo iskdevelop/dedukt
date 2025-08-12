@@ -2,6 +2,7 @@ plugins {
     kotlin("multiplatform")
     kotlin("plugin.serialization")
     id("io.ktor.plugin")
+    application
 }
 
 kotlin {
@@ -18,7 +19,13 @@ kotlin {
     js(IR) {
         browser {
             binaries.executable()
+            testTask {
+                useKarma {
+                    useChromeHeadless()
+                }
+            }
         }
+        nodejs()
     }
 
     sourceSets {
@@ -31,7 +38,8 @@ kotlin {
         }
         val commonTest by getting {
             dependencies {
-                implementation(libs.bundles.testing)
+                implementation(kotlin("test")) // Multiplatform test lib only
+                // Removed libs.bundles.testing here to avoid JVM-only dependencies leaking into JS
             }
         }
         val jvmMain by getting {
@@ -39,12 +47,25 @@ kotlin {
                 implementation(libs.bundles.ktor.server)
             }
         }
-        val jvmTest by getting
+        val jvmTest by getting {
+            dependencies {
+                implementation(libs.bundles.testing) // Put JVM-only testing libs here (JUnit, etc.)
+            }
+        }
         val jsMain by getting
-        val jsTest by getting
+        val jsTest by getting {
+            dependencies {
+                implementation(kotlin("test-js")) // JS-compatible testing framework
+            }
+        }
     }
 }
 
 application {
     mainClass.set("com.iskportal.dedukt.notebook.NotebookServerKt")
+}
+
+repositories {
+    mavenCentral()
+    // add other repos as needed
 }

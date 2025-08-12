@@ -1,6 +1,6 @@
 package com.iskportal.dedukt.dsl
 
-import com.iskportal.core.DeduKtCore
+import com.iskportal.dedukt.core.Core
 
 /**
  * Main entry point for the DeduKt internal DSL.
@@ -33,7 +33,7 @@ data class Expression(val value: String) {
 }
 
 fun dedukt(block: DslContext.() -> Unit) {
-    DeduKtCore.initialize()
+    Core.initialize()
     try {
         DslContext().block()
     } finally {

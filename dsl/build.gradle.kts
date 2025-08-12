@@ -2,6 +2,7 @@ plugins {
     kotlin("multiplatform")
     kotlin("plugin.serialization")
 }
+
 kotlin {
     jvm {
         compilations.all {
@@ -26,12 +27,21 @@ kotlin {
         }
         val commonTest by getting {
             dependencies {
-                implementation(libs.bundles.testing)
+                implementation(kotlin("test")) // multiplatform test lib only
+                // Removed libs.bundles.testing to avoid JVM-only libs leaking to JS
             }
         }
         val jvmMain by getting
-        val jvmTest by getting
+        val jvmTest by getting {
+            dependencies {
+                implementation(libs.bundles.testing) // JVM-only test libs (JUnit)
+            }
+        }
         val jsMain by getting
-        val jsTest by getting
+        val jsTest by getting {
+            dependencies {
+                implementation(kotlin("test-js")) // JS-compatible test framework
+            }
+        }
     }
 }

@@ -5,7 +5,7 @@ plugins {
 }
 
 application {
-    mainClass.set("io.dedukt.lsp.DeduKtLanguageServerKt")
+    mainClass.set("com.iskportal.dedukt.lsp.LanguageServerKt")
 }
 
 dependencies {
