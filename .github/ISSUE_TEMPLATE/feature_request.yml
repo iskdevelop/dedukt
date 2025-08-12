@@ -1,0 +1,122 @@
+name: Feature Request
+description: Suggest a new feature or enhancement
+title: "[Feature]: "
+labels: ["enhancement", "feature-request"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please provide as much detail as possible.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: A brief summary of the feature you'd like to see
+      placeholder: Provide a concise summary of the proposed feature...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve?
+      placeholder: |
+        Is your feature request related to a problem? Please describe.
+        A clear and concise description of what the problem is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like to see
+      placeholder: |
+        A clear and concise description of what you want to happen.
+        Include any specific API designs, user interfaces, or workflows.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which component would this feature affect?
+      options:
+        - Core Engine
+        - Kotlin DSL
+        - External DSL
+        - Language Server (LSP)
+        - Notebook Interface
+        - Documentation
+        - Build System
+        - New Component
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve workflow
+        - High - Blocking current work
+        - Critical - Essential for adoption
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Use Cases
+      description: Describe specific use cases for this feature
+      placeholder: |
+        1. As a [user type], I want to [goal] so that [benefit]
+        2. When [scenario], I expect [behavior]
+        3. This would enable [workflow/capability]
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Code Examples
+      description: Provide examples of how this feature might be used
+      render: kotlin
+      placeholder: |
+        // Example of proposed API usage
+        dedukt {
+            // Your proposed syntax here
+        }
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions you've considered
+      placeholder: |
+        What other approaches could solve this problem?
+        Why is your proposed solution better?
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation Ideas
+      description: Do you have ideas about how this could be implemented?
+      placeholder: |
+        Any thoughts on implementation approach, potential challenges, 
+        or areas of the codebase that might be affected?
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Are you willing to contribute to this feature?
+      options:
+        - label: I'd be willing to implement this feature
+        - label: I'd be willing to help with testing
+        - label: I'd be willing to help with documentation
+        - label: I need someone else to implement this
