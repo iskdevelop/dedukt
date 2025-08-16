@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "75effb2f418e6b8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "87456c7ca50d88ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7b57feaacd30d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "foundations/architecture/Design Philosophy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Design Philosophy"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "395008dba5681812",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bb050bc967ca2b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f51b8e7be04b633",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "30a3380db4631b9d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a82fe2c4586a9221",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "03a65b10bf3ce678",
+    "type": "split",
+    "children": [
+      {
+        "id": "70a5a4d12ed1a325",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4d52c6757ae8d50",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "foundations/DeduKt Project Statement.draft.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DeduKt Project Statement.draft"
+            }
+          },
+          {
+            "id": "b899d6c3c8886f80",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "foundations/DeduKt Project Statement.draft.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DeduKt Project Statement.draft"
+            }
+          },
+          {
+            "id": "5a46e175fa971d8f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2bb89db3ed428738",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "foundations/DeduKt Project Statement.draft.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DeduKt Project Statement.draft"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a7b57feaacd30d1d",
+  "lastOpenFiles": [
+    "foundations/architecture/Project Architecture.md",
+    "foundations/DeduKt Project Statement.draft.md",
+    "foundations/output.pdf",
+    "foundations/architecture/Vision Statement.md",
+    "foundations/about-the-project/00 - preface.md",
+    "foundations/architecture/Design Philosophy.md",
+    "foundations/about-the-project/04 - Solution Statement.md",
+    "foundations/architecture/Untitled",
+    "foundations/architecture/00 - Design Philosophy.md",
+    "foundations/architecture/core",
+    "foundations/architecture/pure-form",
+    "foundations/architecture",
+    "foundations/about-the-project/03 - Problem Statement.md",
+    "foundations/about-the-project/02 - Overview of Computer Simulations: Evolution and Software.md",
+    "foundations/about-the-project/01 - Overview of Computer Algebra Systems.md"
+  ]
+}
