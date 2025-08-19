@@ -20,8 +20,22 @@
               "icon": "lucide-file",
               "title": "Vision Statement"
             }
+          },
+          {
+            "id": "f3cc7872997c86a9",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "legacy/ux/Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,6 +174,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,8 +183,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f619f8081406035",
+  "active": "f3cc7872997c86a9",
   "lastOpenFiles": [
+    "legacy/ux/Untitled.base",
     "dedukt.spec/DeduKt Specification/src/main.tex~",
     "dedukt.spec/DeduKt Specification/out/main.synctex(busy)",
     "dedukt.spec/DeduKt Specification/src/main.glo",
