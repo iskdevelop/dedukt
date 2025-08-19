@@ -1,0 +1,2 @@
+# Introduction 
+DeduKt comes with a compiler and interpreter, the following text provides specification of compiler design, options, stages, and actions that it can perform on a source code. The branch

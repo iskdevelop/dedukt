@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e593709-cba1-4388-a0f6-10e0c430b74a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/Design Philosophy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kernel/src/main/kotlin/com/iskportal/dedukt/kernel/Kernel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kernel/src/main/kotlin/com/iskportal/dedukt/kernel/expression/Expression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/appearance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/core-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/core-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/plugins/better-export-pdf/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/plugins/better-export-pdf/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/plugins/better-export-pdf/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/plugins/better-export-pdf/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/plugins/better-export-pdf/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/plugins/better-export-pdf/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/plugins/better-export-pdf/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/plugins/better-export-pdf/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/DeduKt Project Statement.draft.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/00 - preface.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/00 - preface.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/01 - Overview of Computer Algebra Systems.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/01 - Overview of Computer Algebra Systems.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/02 - Overview of Computer Simulations: Evolution and Software.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/02 - Overview of Computer Simulations: Evolution and Software.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/03 - Problem Statement.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/03 - Problem Statement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/04 - Solution Statement.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/04 - Solution Statement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/architecture/Design Philosophy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/architecture/Project Architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/Project Architecture.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/architecture/Vision Statement.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/Vision Statement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/output.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/build.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thisismeamir&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:iskdevelop/dedukt.git&quot;,
+    &quot;accountId&quot;: &quot;b6635a13-97eb-45be-a73a-797efda736ea&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="/usr/lib/jvm/java-24-openjdk" gradleVersion="8.14" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="31O0ZySYygO6vxsmv4QG3FP53Gc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.dedukt:kernel [:kernel:com.iskportal.dedukt.kernel.KernelKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/formal-docs/legacy" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="KernelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iskportal.dedukt.kernel.KernelKt" />
+      <module name="dedukt.kernel.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.KernelKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e593709-cba1-4388-a0f6-10e0c430b74a" name="Changes" comment="" />
+      <created>1755379871899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755379871899</updated>
+      <workItem from="1755379874268" duration="1040000" />
+      <workItem from="1755419320244" duration="3714000" />
+      <workItem from="1755428766728" duration="1912000" />
+      <workItem from="1755510361176" duration="84000" />
+      <workItem from="1755510453488" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kernel/src/main/kotlin/com/iskportal/dedukt/kernel/Kernel.kt</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

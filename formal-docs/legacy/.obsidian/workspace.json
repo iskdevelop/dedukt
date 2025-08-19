@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "48b5bd80ea04eab9",
+    "id": "75effb2f418e6b8b",
     "type": "split",
     "children": [
       {
-        "id": "8de30b36caa91f4c",
+        "id": "87456c7ca50d88ce",
         "type": "tabs",
         "children": [
           {
-            "id": "7f619f8081406035",
+            "id": "a7b57feaacd30d1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "legacy/foundations/architecture/Vision Statement.md",
+                "file": "foundations/about-the-project/04 - Solution Statement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vision Statement"
+              "title": "04 - Solution Statement"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7135ae9d624db04a",
+    "id": "395008dba5681812",
     "type": "split",
     "children": [
       {
-        "id": "a1022d296a6b4dc0",
+        "id": "9bb050bc967ca2b6",
         "type": "tabs",
         "children": [
           {
-            "id": "ed433f5eecc9adc6",
+            "id": "7f51b8e7be04b633",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "ddb3552713e429b1",
+            "id": "30a3380db4631b9d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "571810e7500d67fe",
+            "id": "a82fe2c4586a9221",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,21 +81,21 @@
     "width": 300
   },
   "right": {
-    "id": "0b77731366760df1",
+    "id": "03a65b10bf3ce678",
     "type": "split",
     "children": [
       {
-        "id": "2256af4189448e32",
+        "id": "70a5a4d12ed1a325",
         "type": "tabs",
         "children": [
           {
-            "id": "a08a6832d6ea7472",
+            "id": "e4d52c6757ae8d50",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "legacy/foundations/architecture/Vision Statement.md",
-                "collapseAll": false,
+                "file": "foundations/DeduKt Project Statement.draft.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vision Statement"
+              "title": "Backlinks for DeduKt Project Statement.draft"
             }
           },
           {
-            "id": "f38df8b0b55f3dab",
+            "id": "b899d6c3c8886f80",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "legacy/foundations/architecture/Vision Statement.md",
+                "file": "foundations/DeduKt Project Statement.draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Vision Statement"
+              "title": "Outgoing links from DeduKt Project Statement.draft"
             }
           },
           {
-            "id": "a9f7413ba7c78042",
+            "id": "5a46e175fa971d8f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,21 +137,22 @@
             }
           },
           {
-            "id": "37c6423dbfbf5a85",
+            "id": "2bb89db3ed428738",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "legacy/foundations/architecture/Vision Statement.md",
+                "file": "foundations/DeduKt Project Statement.draft.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vision Statement"
+              "title": "Outline of DeduKt Project Statement.draft"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -168,24 +169,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f619f8081406035",
+  "active": "a7b57feaacd30d1d",
   "lastOpenFiles": [
-    "dedukt.spec/DeduKt Specification/src/main.tex~",
-    "dedukt.spec/DeduKt Specification/out/main.synctex(busy)",
-    "dedukt.spec/DeduKt Specification/src/main.glo",
-    "dedukt.spec/DeduKt Specification/src/main.ind",
-    "dedukt.spec/DeduKt Specification/outchapters/introduction",
-    "dedukt.spec/DeduKt Specification/outchapters/frontmatter",
-    "dedukt.spec/DeduKt Specification/outchapters",
-    "dedukt.spec/DeduKt Specification/src/chapters/introduction/road-map.tex~",
-    "legacy/foundations/architecture/pure-form/(DRAFT) - Syntax and Grammar.md",
-    "legacy/foundations/architecture/pure-form/(DRAFT) Compiler.md",
-    "legacy/foundations/architecture/Vision Statement.md",
-    "dedukt.spec/DeduKt Specification/src/chapters/introduction/road-map.tex",
-    "dedukt.spec/DeduKt Specification/src/chapters/introduction/success-criteria.tex~",
-    "legacy/foundations/architecture/Project Architecture.md",
-    "legacy/foundations/architecture/Design Philosophy.md",
-    "legacy/foundations/about-the-project/04 - Solution Statement.md",
-    "legacy/foundations/about-the-project/00 - preface.md"
+    "legacy/ux",
+    "legacy/maintenance",
+    "legacy/legal",
+    "legacy",
+    "foundations/dedukt.spec",
+    "foundations/architecture/Vision Statement.md",
+    "foundations/DeduKt Project Statement.draft.md",
+    "foundations/architecture/Project Architecture.md",
+    "foundations/architecture/Design Philosophy.md",
+    "foundations/architecture/pure-form/(DRAFT) Compiler.md",
+    "foundations/architecture/pure-form/(DRAFT) - Syntax and Grammar.md",
+    "foundations/architecture/pure-form/Untitled",
+    "foundations/output.pdf",
+    "foundations/about-the-project/00 - preface.md",
+    "foundations/about-the-project/04 - Solution Statement.md",
+    "foundations/architecture/Untitled",
+    "foundations/architecture/00 - Design Philosophy.md",
+    "foundations/architecture/core",
+    "foundations/architecture/pure-form",
+    "foundations/architecture",
+    "foundations/about-the-project/03 - Problem Statement.md",
+    "foundations/about-the-project/02 - Overview of Computer Simulations: Evolution and Software.md",
+    "foundations/about-the-project/01 - Overview of Computer Algebra Systems.md"
   ]
 }
