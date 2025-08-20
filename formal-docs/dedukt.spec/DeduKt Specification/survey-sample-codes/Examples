@@ -1,0 +1,82 @@
+// 1. Functional
+// Define multiple functions and put them together.
+operator :: + (x_Number,y_Number) := successor(x) + subtract(y,1)
+extend + => { if(x !=0 && y ==0) => x)
+extend + => { if(x ==0 && y !=0) => y + x)
+
+// 2. Object-Oriented
+// Define structures
+operation + {
+    binary { number, number }
+    identity = 0
+    rules {
+        x + 0 => x
+        0 + x => x + 0
+        x + y => successor { x } + (y - 1) // Assuming - and successor are already defined.
+}
+
+
+// 1. Nested functions for symbolic expression
+expr = add(multiply(x, x), multiply(3, x), 2)
+
+// 2. Natural syntax for the same expression
+expr = x^2 + 3*x + 2
+
+// 1. Using English-like syntax for defining mathematical operations
+integrate (root ((square x) plus (square y))) respect x
+
+// 2. Using standard mathematical syntax
+\int (x^2 + y^2)^(1/2) dx
+
+// 3. Combination of both
+integrate x -> { root { x^2 + y^2 } }
+
+// 1. Formal Error Handling
+Error: Division by zero detected at line 12. Syntax error in expression.
+
+// 2. Mathematical Error
+Error: The operation 'x / 0' is undefined. Please check your symbolic expression.
+
+// 1. Minimalist syntax with only essential operations
+x = [1,2,3,4,5]
+for i in x:
+    if i % 2 == 0:
+        x.pop(x)
+print(x) // Shows [1,3,5]
+
+// 2. Feature-rich syntax with more options for symbolic operations
+x = [1,3,4,5]
+x.filter { i isOdd }.print // Shows [1,3,5]
+
+x := 10
+x  = 10
+x -> 10
+
+integrate { f{x} , x}
+integrate { f{x} ; x}
+integrate (x) { f{x} }
+integrate (x, f(x))
+integrate {x : f(x)}
+
+function integration :: x: Variable, f: Function => { ... } // ... represents function implementation.
+function integration(x: Variable, f: Function) => { ... } // ... represents function implementation.
+function integration {x Variable, f Function -> ... } // ... represents function implementation.
+
+type ArithmeticElement :: Union<Number, Variable>
+axiom Commutativity {
+    BinaryOperator {a,b,op : a op b == b op a}
+}
+structure Arithmetic {
+    elements :: ArithmeticElement
+    language {
+        operation + :: BinaryOperator {
+            leftSide  :: ArithmeticElement
+            rightSide :: ArithmeticElement
+            identity  { 0 }
+            rules {
+                x + y => successor { x } + (y - 1)
+                Commutativity
+                Associativity
+        }
+    }
+}
