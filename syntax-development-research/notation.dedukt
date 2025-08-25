@@ -1,0 +1,13 @@
+// Notation is the building block in which we define rules and axioms or symbolic algorithms
+// Below we define a notation called infix for BinaryOperator, given :: BinaryOperator we give
+// context to notation infix, allowing it to use it.<property> where it represents a BinaryOperator
+notation infix :: BinaryOperator {
+    it.first it.symbol it.second
+}
+
+
+
+abstract type AxiomType {
+    module { }
+    module2 { }
+}

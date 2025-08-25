@@ -1,0 +1,11 @@
+// type defines objects inside mathematics in a general sense.
+// primitive types are the building blocks of other types:
+// Literal : is a type assigned to symbols it has a property called .symbol in abstract form.
+// Number : is an extension to Literal type that has another property as well .value which enables
+//          the system to use the number value.
+// List<T>: is an array with elements type T. e.g. {1,2,3,4,5,4}
+// Set<T>: is a non-duplicated array of elements type T. {1,2,3,4}
+// Map<T,U>: is a key to value map type.
+// Expression: is an algebraic expression tree. e.g. 2 + 3 is an expression.
+//             it has properties .childs which is List<Expression>,
+//             .order

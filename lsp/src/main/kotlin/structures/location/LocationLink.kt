@@ -1,5 +1,8 @@
 package com.iskportal.dedukt.lsp.structures
 
+import com.iskportal.dedukt.lsp.structures.range.Range
+import com.iskportal.dedukt.lsp.structures.uri.DocumentUri
+
 /**
  * Represents a link between a source and a target location.
  */

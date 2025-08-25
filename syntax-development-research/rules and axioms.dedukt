@@ -1,0 +1,19 @@
+// Expressions
+// -- Internal Operations
+x = 2 // means assign literal 2 to x identifier
+
+// Defining new functions
+fun functionName {x: ArithmeticExpression, y: ArithmeticExpression ->
+    x + y - (x * y^2) // Which is another ArithmeticExpression
+}
+
+fun singleArgumentFunction { x : ArithmeticExpression -> x + 2 }
+
+// Using a function
+functionName {x, y}
+functionName {2 + c^2 - 23}
+singleArgumentFunction x
+
+notation infix :: BinaryOperator {
+
+}

@@ -1,5 +1,7 @@
 package com.iskportal.dedukt.lsp.structures
 
+import com.iskportal.dedukt.lsp.structures.uri.DocumentUri
+
 /**
  * An item to transfer a text document from the client to the server.
  */

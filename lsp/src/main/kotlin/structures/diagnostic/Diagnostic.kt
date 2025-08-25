@@ -1,5 +1,7 @@
 package com.iskportal.dedukt.lsp.structures
 
+import com.iskportal.dedukt.lsp.structures.range.Range
+
 interface Diagnostic {
     /**
      * The range at which the message applies.

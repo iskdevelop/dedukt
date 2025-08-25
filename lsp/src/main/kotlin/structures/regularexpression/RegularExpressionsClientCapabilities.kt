@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.regularexpression
 
 /**
  * Client capabilities specific to regular expressions.

@@ -1,5 +1,7 @@
 package com.iskportal.dedukt.lsp.structures
 
+import com.iskportal.dedukt.lsp.structures.range.Range
+
 /**
  * A textual edit applicable to a text document.
  */

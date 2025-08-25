@@ -1,5 +1,7 @@
 package com.iskportal.dedukt.lsp.structures
 
+import com.iskportal.dedukt.lsp.structures.position.Position
+
 /**
  * Was TextDocumentPosition in 1.0 with inlined parameters.
  *

@@ -1,5 +1,7 @@
 package com.iskportal.dedukt.lsp.structures
 
+import com.iskportal.dedukt.lsp.structures.uri.DocumentUri
+
 /**
  * Text documents are identified using a URI. On the protocol level, URIs are passed as strings.
  */

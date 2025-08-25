@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.diagnostic
 
 /**
  * Structure to capture a description for an error code.
