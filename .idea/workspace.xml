@@ -4,87 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e593709-cba1-4388-a0f6-10e0c430b74a" name="Changes" comment="[stash]">
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellow.dedukt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/CreateFile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/CreateFileOptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DeleteFile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DeleteFileOptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/FailureHandlingKind.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/MarkdownClientCapabilities.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/MarkupContent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/MarkupKind.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/PartialResultParams.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/ProgressToken.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/RenameFile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/RenameFileOptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/ResourceOperationKind.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TraceValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressBegin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressEnd.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressOptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressParams.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressReport.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkspaceEdit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkspaceEditClientCapabilities.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0e593709-cba1-4388-a0f6-10e0c430b74a" name="Changes" comment="[implementation] Base Json structure.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/.obsidian/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/frontmatter/conventions.tex" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/frontmatter/conventions.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/philosophyanddesign/core-philosophy.tex" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/philosophyanddesign/core-philosophy.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/philosophyanddesign/the-dedukt-project-a-foundation-for-rigorous-mathematical-reasoning.tex" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/philosophyanddesign/the-dedukt-project-a-foundation-for-rigorous-mathematical-reasoning.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/pure-form/(DRAFT) - Syntax and Grammar.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/pure-form/(DRAFT) - Syntax and Grammar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/legacy/ux/Untitled.base" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/ux/Untitled.base" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/AnnotatedTextEdit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textedit/AnnotatedTextEdit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/ChangeAnnotation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textedit/ChangeAnnotation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/ChangeAnnotationIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textedit/ChangeAnnotationIdentifier.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/CodeDescription.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/CodeDescription.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/Diagnostic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/Diagnostic.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DiagnosticRelatedInformation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/DiagnosticRelatedInformation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DiagnosticSeverity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/DiagnosticSeverity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DiagnosticTag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/DiagnosticTag.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DocumentFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/DocumentFilter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DocumentSelector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/DocumentSelector.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DocumentUri.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/uri/DocumentUri.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/EOL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/Eol.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/Location.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/location/Location.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/LocationLink.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/location/LocationLink.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/OptionalVersionedTextDocumentIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/OptionalVersionedTextDocumentIdentifier.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/Position.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/position/Position.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/PositionEncodingKind.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/position/PositionEncodingKind.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/PositionEncodingKindType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/position/PositionEncodingKindType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/range/Range.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/RegularExpressionsClientCapabilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/regularexpression/RegularExpressionsClientCapabilities.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextDocument.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/TextDocument.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextDocumentEdit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/TextDocumentEdit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextDocumentIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/TextDocumentIdentifier.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextDocumentPositionParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/TextDocumentPositionParams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextEdit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textedit/TextEdit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/URI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/uri/Uri.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/VersionedTextDocumentIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/VersionedTextDocumentIdentifier.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,11 +155,11 @@
       <recent name="method.io" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="com.iskportal.dedukt.lsp.structures.workspace" />
+      <recent name="com.iskportal.dedukt.lsp.structures.mark" />
+      <recent name="com.iskportal.dedukt.lsp.structures.workdone" />
+      <recent name="com.iskportal.dedukt.lsp.structures.file" />
       <recent name="com.iskportal.dedukt.lsp.structures.diagnostic" />
-      <recent name="com.iskportal.dedukt.lsp.structures.location" />
-      <recent name="com.iskportal.dedukt.lsp.structures.textedit" />
-      <recent name="com.iskportal.dedukt.lsp.structures.textdocument" />
-      <recent name="com.iskportal.dedukt.lsp.structures.range" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,7 +326,8 @@
       <workItem from="1756052818008" duration="306000" />
       <workItem from="1756063289765" duration="1097000" />
       <workItem from="1756064789954" duration="9453000" />
-      <workItem from="1756096957986" duration="2497000" />
+      <workItem from="1756096957986" duration="2825000" />
+      <workItem from="1756104686978" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="[implementation] simple antlr implementation, no correct grammar is given but the pipeline works perfectly">
       <option name="closed" value="true" />
@@ -458,7 +380,8 @@
     <MESSAGE value="[implementation] lsp decoding and encoding messages." />
     <MESSAGE value="[implementation] lsp structures definition based on LSP Specification document." />
     <MESSAGE value="[stash]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[stash]" />
+    <MESSAGE value="[implementation] Base Json structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="[implementation] Base Json structure." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
