@@ -1,5 +1,6 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.diagnostic
 
+import com.iskportal.dedukt.lsp.structures.diagnostic.CodeDescription
 import com.iskportal.dedukt.lsp.structures.range.Range
 
 interface Diagnostic {

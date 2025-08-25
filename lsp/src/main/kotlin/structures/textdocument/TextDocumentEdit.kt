@@ -1,4 +1,6 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.textdocument
+
+import com.iskportal.dedukt.lsp.structures.textedit.TextEdit
 
 interface TextDocumentEdit {
     /**

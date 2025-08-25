@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.position
 
 /**
  * Position in a text document expressed as zero-based line and zero-based character offset. A position is between two characters like an ‘insert’ cursor in an editor. Special values like for example -1 to denote the end of a line are not supported.

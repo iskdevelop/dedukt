@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.file
 
 /**
  * Options to create a file.

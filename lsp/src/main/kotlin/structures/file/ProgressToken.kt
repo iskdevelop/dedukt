@@ -1,3 +1,3 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.file
 
 typealias ProgressToken = String

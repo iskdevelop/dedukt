@@ -8,16 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/examples" />
-            <option value="$PROJECT_DIR$/free-form" />
-            <option value="$PROJECT_DIR$/gradle-plugin" />
             <option value="$PROJECT_DIR$/kernel" />
-            <option value="$PROJECT_DIR$/kompute-integration" />
-            <option value="$PROJECT_DIR$/lang" />
             <option value="$PROJECT_DIR$/lsp" />
-            <option value="$PROJECT_DIR$/reasoning" />
-            <option value="$PROJECT_DIR$/stdlib" />
-            <option value="$PROJECT_DIR$/tests" />
           </set>
         </option>
       </GradleProjectSettings>

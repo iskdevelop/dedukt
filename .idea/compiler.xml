@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="21" />
+    <bytecodeTargetLevel target="21">
+      <module name="dedukt.examples" target="24" />
+      <module name="dedukt.examples.main" target="24" />
+      <module name="dedukt.examples.test" target="24" />
+      <module name="dedukt.free-form" target="24" />
+      <module name="dedukt.free-form.main" target="24" />
+      <module name="dedukt.free-form.test" target="24" />
+      <module name="dedukt.gradle-plugin" target="24" />
+      <module name="dedukt.gradle-plugin.main" target="24" />
+      <module name="dedukt.gradle-plugin.test" target="24" />
+      <module name="dedukt.kompute-integration" target="24" />
+      <module name="dedukt.kompute-integration.main" target="24" />
+      <module name="dedukt.kompute-integration.test" target="24" />
+      <module name="dedukt.reasoning" target="24" />
+      <module name="dedukt.reasoning.main" target="24" />
+      <module name="dedukt.reasoning.test" target="24" />
+      <module name="dedukt.stdlib" target="24" />
+      <module name="dedukt.stdlib.main" target="24" />
+      <module name="dedukt.stdlib.test" target="24" />
+      <module name="dedukt.tests" target="24" />
+      <module name="dedukt.tests.main" target="24" />
+      <module name="dedukt.tests.test" target="24" />
+    </bytecodeTargetLevel>
   </component>
 </project>

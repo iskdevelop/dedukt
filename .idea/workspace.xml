@@ -4,45 +4,151 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e593709-cba1-4388-a0f6-10e0c430b74a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/Design Philosophy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kernel/src/main/kotlin/com/iskportal/dedukt/kernel/Kernel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kernel/src/main/kotlin/com/iskportal/dedukt/kernel/expression/Expression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/appearance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/community-plugins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/core-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/core-plugins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/plugins/better-export-pdf/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/plugins/better-export-pdf/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/plugins/better-export-pdf/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/plugins/better-export-pdf/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/plugins/better-export-pdf/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/plugins/better-export-pdf/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/plugins/better-export-pdf/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/plugins/better-export-pdf/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/.obsidian/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/DeduKt Project Statement.draft.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/00 - preface.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/00 - preface.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/01 - Overview of Computer Algebra Systems.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/01 - Overview of Computer Algebra Systems.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/02 - Overview of Computer Simulations: Evolution and Software.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/02 - Overview of Computer Simulations: Evolution and Software.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/03 - Problem Statement.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/03 - Problem Statement.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/about-the-project/04 - Solution Statement.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/about-the-project/04 - Solution Statement.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/architecture/Design Philosophy.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/architecture/Project Architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/Project Architecture.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/architecture/Vision Statement.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/Vision Statement.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formal-docs/foundations/output.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/build.gradle.kts" afterDir="false" />
+    <list default="true" id="0e593709-cba1-4388-a0f6-10e0c430b74a" name="Changes" comment="[stash]">
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellow.dedukt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/CreateFile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/CreateFileOptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DeleteFile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DeleteFileOptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/FailureHandlingKind.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/MarkdownClientCapabilities.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/MarkupContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/MarkupKind.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/PartialResultParams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/ProgressToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/RenameFile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/RenameFileOptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/ResourceOperationKind.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TraceValue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressBegin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressEnd.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressOptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressParams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkDoneProgressReport.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkspaceEdit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/WorkspaceEditClientCapabilities.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/out/main.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/frontmatter/conventions.tex" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/frontmatter/conventions.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/philosophyanddesign/core-philosophy.tex" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/philosophyanddesign/core-philosophy.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/philosophyanddesign/the-dedukt-project-a-foundation-for-rigorous-mathematical-reasoning.tex" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/chapters/philosophyanddesign/the-dedukt-project-a-foundation-for-rigorous-mathematical-reasoning.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/dedukt.spec/DeduKt Specification/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/pure-form/(DRAFT) - Syntax and Grammar.md" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/foundations/architecture/pure-form/(DRAFT) - Syntax and Grammar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formal-docs/legacy/ux/Untitled.base" beforeDir="false" afterPath="$PROJECT_DIR$/formal-docs/legacy/ux/Untitled.base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/AnnotatedTextEdit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textedit/AnnotatedTextEdit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/ChangeAnnotation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textedit/ChangeAnnotation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/ChangeAnnotationIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textedit/ChangeAnnotationIdentifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/CodeDescription.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/CodeDescription.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/Diagnostic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/Diagnostic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DiagnosticRelatedInformation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/DiagnosticRelatedInformation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DiagnosticSeverity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/DiagnosticSeverity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DiagnosticTag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/diagnostic/DiagnosticTag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DocumentFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/DocumentFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DocumentSelector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/DocumentSelector.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/DocumentUri.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/uri/DocumentUri.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/EOL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/Eol.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/Location.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/location/Location.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/LocationLink.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/location/LocationLink.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/OptionalVersionedTextDocumentIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/OptionalVersionedTextDocumentIdentifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/Position.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/position/Position.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/PositionEncodingKind.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/position/PositionEncodingKind.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/PositionEncodingKindType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/position/PositionEncodingKindType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/range/Range.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/RegularExpressionsClientCapabilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/regularexpression/RegularExpressionsClientCapabilities.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextDocument.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/TextDocument.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextDocumentEdit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/TextDocumentEdit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextDocumentIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/TextDocumentIdentifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextDocumentPositionParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/TextDocumentPositionParams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/TextEdit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textedit/TextEdit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/URI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/uri/Uri.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/VersionedTextDocumentIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lsp/src/main/kotlin/structures/textdocument/VersionedTextDocumentIdentifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+      <option value="repository" />
+    </option>
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/kernel">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dedukt" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dedukt" type="f1a62948:ProjectNode" />
+                <item name="kernel" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dedukt" type="f1a62948:ProjectNode" />
+                <item name="kernel" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dedukt" type="f1a62948:ProjectNode" />
+                <item name="kernel" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
       </list>
@@ -63,7 +169,7 @@
     &quot;accountId&quot;: &quot;b6635a13-97eb-45be-a73a-797efda736ea&quot;
   }
 }</component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="/usr/lib/jvm/java-24-openjdk" gradleVersion="8.14" />
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="/usr/lib/jvm/java-21-openjdk" gradleVersion="8.14" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -75,39 +181,197 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Build dedukt.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EncodeAndDecode.EncodingMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EncodeAndDecode.encodingMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EncodeAndDecode.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestEncodeAndDecode.decoding a message.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestEncodeAndDecode.encoding a message.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestEncodeAndDecode.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestEncodeAndDecode.testDecodingMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestEncodeAndDecode.testEncodingMessages.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestInitialization.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.dedukt:kernel [:kernel:com.iskportal.dedukt.kernel.KernelKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dedukt:kernel [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dedukt:lsp [:lsp:MainKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dedukt:lsp [:lsp:com.iskportal.dedukt.MainKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dedukt:lsp [:lsp:com.iskportal.dedukt.lsp.rpc.JsonRpcKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dedukt:lsp [:lsp:com.iskprotal.dedukt.lsp.MainKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Ktor.ApplicationKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Ktor.ApplicationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Ktor.EngineMain.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kid-a/projects/dedukt/kernel&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/kid-a/projects/dedukt/lsp/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kernel" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/formal-docs/legacy" />
     </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="method.io" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="com.iskportal.dedukt.lsp.structures.diagnostic" />
+      <recent name="com.iskportal.dedukt.lsp.structures.location" />
+      <recent name="com.iskportal.dedukt.lsp.structures.textedit" />
+      <recent name="com.iskportal.dedukt.lsp.structures.textdocument" />
+      <recent name="com.iskportal.dedukt.lsp.structures.range" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="KernelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.iskportal.dedukt.kernel.KernelKt" />
-      <module name="dedukt.kernel.main" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="KtorApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="EngineMain" value="FAILED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.TestEncodeAndDecode">
+    <configuration name="TestEncodeAndDecode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lsp:test" />
+            <option value="--tests" />
+            <option value="&quot;TestEncodeAndDecode&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEncodeAndDecode.decoding a message" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lsp:test" />
+            <option value="--tests" />
+            <option value="&quot;TestEncodeAndDecode.decoding a message&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEncodeAndDecode.encoding a message" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lsp:test" />
+            <option value="--tests" />
+            <option value="&quot;TestEncodeAndDecode.encoding a message&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JsonRpcKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iskportal.dedukt.lsp.rpc.JsonRpcKt" />
+      <module name="dedukt.lsp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="dedukt.lsp.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EngineMain" type="KtorApplicationConfigurationType" factoryName="Ktor" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.ktor.server.netty.EngineMain" />
+      <module name="dedukt.lsp.main" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="includeProvidedScope" value="false" />
+      <option name="mainClass" value="io.ktor.server.netty.EngineMain" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="shortenCommandLine" />
+      <option name="vmParameters" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.KernelKt" />
+        <item itemvalue="Gradle.TestEncodeAndDecode" />
+        <item itemvalue="Gradle.TestEncodeAndDecode.encoding a message" />
+        <item itemvalue="Gradle.TestEncodeAndDecode.decoding a message" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.JsonRpcKt" />
       </list>
     </recent_temporary>
   </component>
@@ -131,11 +395,70 @@
       <workItem from="1755428766728" duration="1912000" />
       <workItem from="1755510361176" duration="84000" />
       <workItem from="1755510453488" duration="114000" />
+      <workItem from="1755785994216" duration="34000" />
+      <workItem from="1755901739471" duration="647000" />
+      <workItem from="1756040655845" duration="6070000" />
+      <workItem from="1756046735000" duration="445000" />
+      <workItem from="1756047333494" duration="3281000" />
+      <workItem from="1756050633331" duration="586000" />
+      <workItem from="1756051229148" duration="1099000" />
+      <workItem from="1756052818008" duration="306000" />
+      <workItem from="1756063289765" duration="1097000" />
+      <workItem from="1756064789954" duration="9453000" />
+      <workItem from="1756096957986" duration="2497000" />
     </task>
+    <task id="LOCAL-00001" summary="[implementation] simple antlr implementation, no correct grammar is given but the pipeline works perfectly">
+      <option name="closed" value="true" />
+      <created>1755902031393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755902031394</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[implementation] simple antlr implementation, no correct grammar is given but the pipeline works perfectly">
+      <option name="closed" value="true" />
+      <created>1755902100291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755902100291</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[implementation] simple antlr implementation, no correct grammar is given but the pipeline works perfectly">
+      <option name="closed" value="true" />
+      <created>1755902115988</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755902115988</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[implementation] lsp decoding and encoding messages.">
+      <option name="closed" value="true" />
+      <created>1756074124717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756074124717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[implementation] lsp structures definition based on LSP Specification document.">
+      <option name="closed" value="true" />
+      <created>1756074142825</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756074142825</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[implementation] simple antlr implementation, no correct grammar is given but the pipeline works perfectly" />
+    <MESSAGE value="[implementation] lsp decoding and encoding messages." />
+    <MESSAGE value="[implementation] lsp structures definition based on LSP Specification document." />
+    <MESSAGE value="[stash]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[stash]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -145,7 +468,16 @@
           <line>3</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/lsp/src/main/kotlin/lsp/Main.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

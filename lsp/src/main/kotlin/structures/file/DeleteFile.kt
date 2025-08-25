@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.file
 
 import com.iskportal.dedukt.lsp.structures.textedit.ChangeAnnotationIdentifier
 import com.iskportal.dedukt.lsp.structures.uri.DocumentUri

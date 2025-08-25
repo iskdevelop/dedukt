@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.textedit
 
 /**
  * An identifier referring to a change annotation managed by a workspace

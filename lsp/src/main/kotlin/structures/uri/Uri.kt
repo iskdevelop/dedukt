@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.uri
 
 
-typealias URI = String
+typealias Uri = String

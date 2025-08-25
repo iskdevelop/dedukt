@@ -1,6 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
-
-import com.iskportal.dedukt.lsp.structures.textdocument.TextDocumentIdentifier
+package com.iskportal.dedukt.lsp.structures.textdocument
 
 /**
  * An identifier which optionally denotes a specific version of a text document. This information usually flows from the server to the client.

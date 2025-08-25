@@ -1,4 +1,6 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.workdone
+
+import com.iskportal.dedukt.lsp.structures.file.ProgressToken
 
 interface WorkDoneProgressParams {
     /**

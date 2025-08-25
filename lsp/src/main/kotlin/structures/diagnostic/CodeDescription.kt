@@ -1,5 +1,7 @@
 package com.iskportal.dedukt.lsp.structures.diagnostic
 
+import com.iskportal.dedukt.lsp.structures.uri.Uri
+
 /**
  * Structure to capture a description for an error code.
  *
@@ -7,7 +9,7 @@ package com.iskportal.dedukt.lsp.structures.diagnostic
  */
 interface CodeDescription {
     /**
-     * An URI to open with more information about the diagnostic error.
+     * `A URI to open with more information about the diagnostic error.
      */
-    val href: URI;
+    val href: Uri;
 }

@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.mark
 
 /**
  * A `MarkupContent` literal represents a string value which content is

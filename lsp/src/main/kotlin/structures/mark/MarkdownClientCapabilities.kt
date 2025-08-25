@@ -1,4 +1,4 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.mark
 
 /**
  * Client capabilities specific to the used markdown parser.

@@ -1,4 +1,7 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.workspace
+
+import com.iskportal.dedukt.lsp.structures.FailureHandlingKind
+import com.iskportal.dedukt.lsp.structures.ResourceOperationKind
 
 interface WorkspaceEditClientCapabilities {
     /**

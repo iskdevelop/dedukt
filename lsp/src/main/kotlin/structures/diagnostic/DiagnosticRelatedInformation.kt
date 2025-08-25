@@ -1,4 +1,6 @@
-package com.iskportal.dedukt.lsp.structures
+package com.iskportal.dedukt.lsp.structures.diagnostic
+
+import com.iskportal.dedukt.lsp.structures.location.Location
 
 /**
  * Represents a related message and source code location for a diagnostic.
