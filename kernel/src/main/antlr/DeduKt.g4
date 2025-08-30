@@ -1,12 +1,6 @@
 grammar DeduKt;
 
-fileStat : expr;
-expr : additiveExpr;
+import DeduKtFileHead, DeduKtFileBody;
 
-additiveExpr : additiveExpr('+' | '-') primaryExpr
-             | primaryExpr;
-
-primaryExpr : NUM;
-
-NUM : [0-9]+;
-SPACES: [ \t] -> skip;
+fileProgram
+    : head body;
